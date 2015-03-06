@@ -7,7 +7,27 @@ body {
 }
 header {
   width: 100%;
-  height: 46px;
-  font-size: 1em;
+  height: 50px;
+  color: white;
   background-color: #536dfe;
+  box-shadow: 0px 0px 5px 2px #d0d0d0;
+}
+header #headerWrap {
+  height: 50px;
+}
+header #headerWrap #logo {
+  font-size: 1em;
+  font-weight: bold;
+  padding-left: 14px;
+}
+header #headerWrap #headerTitle {
+  font-size: 0.95em;
+  padding-left: 10px;
+}
+header #headerWrap #profileButton {
+  padding-right: 14px;
+}
+header #headerWrap #profileButton > core-icon[icon="account-circle"] {
+  width: 20px;
+  height: 20px;
 }
