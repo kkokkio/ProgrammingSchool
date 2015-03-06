@@ -902,7 +902,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page\/common.less",
-		"outputAbbreviatedPath": "\/page\/common.css",
+		"outputAbbreviatedPath": "\/common.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
