@@ -10,7 +10,10 @@
     <link rel="import" href="bower_components/core-header-panel/core-header-panel.html" />
     <link rel="import" href="bower_components/core-toolbar/core-toolbar.html" />
     <link rel="import" href="bower_components/core-icons/core-icons.html" />
+    <link rel="import" href="bower_components/core-icons/social-icons.html" />
+    <link rel="import" href="bower_components/core-icons/device-icons.html" />
     <link rel="import" href="bower_components/core-icon/core-icon.html" />
+    <link rel="import" href="pschool_components/pschool-header.html" />
     <link rel="stylesheet" href="common.css"/>
     <script>
         __PSCHOOL_HOST__ = {
@@ -20,15 +23,38 @@
 </head>
 
 <body unresolved>
-    <header>
+    <pschool-header>
+        <div id="logo">&#60;""/&#62;</div>
+        <div id="headerTitle" flex>Programming School</div>
+        <div id="profileButton"><core-icon icon="social:person-outline"></core-icon></div>
+    </pschool-header>
+    <!--<header>
         <div id="headerWrap" horizontal layout center>
             <div id="logo">&#60;""/&#62;</div>
             <div id="headerTitle" flex>Programming School</div>
             <div id="profileButton"><core-icon icon="account-circle"></core-icon></div>
         </div>
-    </header>
+    </header>-->
     <div id="content">
-
+        <div id="languageMenuWrap">
+            <div id="languageTitlePanel">
+                <core-icon icon="device:developer-mode"></core-icon> Language 교실
+            </div>
+            <div id="languageMenuPanel">
+                <div id="languageC" class="roundButton">
+                    C
+                </div>
+                <div id="languageJava" class="roundButton">
+                    Java
+                </div>
+                <div id="languageJS" class="roundButton">
+                    <p>Java<br/>Script</p>
+                </div>
+                <div id="languagePlus" class="roundButton last">
+                    <core-icon icon="social:school"></core-icon> +
+                </div>
+            </div>
+        </div>
     </div>
     <footer>
 
